@@ -40,6 +40,7 @@ security:
     resource:
       id: paascloud-resource-uac
       filter-order: 3
+      userInfoUri: http://paascloud-gateway:7979/uac/user
 
 paascloud:
   enableSqlLogInterceptor: false
